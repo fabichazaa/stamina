@@ -1,5 +1,5 @@
 .jumbotron{
-	background-color: #A4F0FF;
+	background-color: lightgrey;
 	color: black;
 	margin-top: 50px;
 }
@@ -7,20 +7,20 @@
 
 footer{
 	padding: 10px 10px 0 10px;
-	background-color: #A4F0FF;
+	background-color: lightgrey;
 	margin-bottom: 0px;
 	margin-bottom: 0px;
 	margin-top: 10px;
 }
-
+/* PADDING: Top-right-bot-left */
 .card-user{
-	flex: 1 150px;
-	padding: 2px 5px 2px 5px;
+	flex: 1 200px;
 	margin-top: 10px;
 }
 
 .btn-check{
 	width: 100%;
+	border-radius: 0px;
 }
 
 .footer-adress-icon{
