@@ -5,10 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/CSS/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+
+
 
 
     <title>STAMINA</title>
@@ -36,29 +39,50 @@
 	  <h1 class="display-4">STAMINA</h1>
 	</div>
 
+
+
+
 	<div class="container">
 		<nav aria-label="breadcrumb">
 			<ol class="breadcrumb">
 				<li class="breadcrumb-item active" aria-current="page">Home</li>
 			</ol>
 		</nav>
-		<div class="d-flex">
-			<div class="col">
-				<p><h5 class="card-title">SOCIAL</h5> 
-					Post your photos and connect with people from all arround the world!
-				</p>
-			</div>
-			<div class="col">
-				<p><h5 class="card-title">FRIENDLY</h5>
-					Nice interface with bright colors.
-				</p>
-			</div>
-			<div class="col">
-				<p><h5 class="card-title">EASY TO USE</h5>
-					Everyone can use it :)
-				</p>
-			</div>
+		<div class="row">
+		<div class="col-sm-4">
+			<button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#functions" aria-controls="multiCollapse1">How does it work?
+			</button>
 		</div>
+		<div class="col-sm-4">
+			<button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#reserve" aria-controls="multiCollapse2">Where can I reserve?
+			</button>
+		</div>
+		<div class="col-sm-4">
+			<button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#functions" aria-controls="multiCollapse3">How do I pay?
+			</button>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4 collapse multi-collapse" id="functions">
+			<p>
+				<h3>How does it work?</h3>
+				<p>Search the hotels with your preferences.</p>
+			</p>
+		</div>
+		<div class="col-sm-4 collapse multi-collapse" id="reserve">
+			<p>
+				<h3>Where can I reserve></h3>
+				<p>Pick the city and make the purchase.</p>
+			</p>
+		</div>
+		<div class="col-sm-4 collapse multi-collapse" id="reserve">
+			<p>
+				<h3>How do I pay?></h3>
+				<p>Pick your favourite card.</p>
+			</p>
+		</div>
+	</div>
+	<hr>
 
 	<img src="images/banner.jpeg" class="img-fluid" alt="Responsive image">
 	<hr>
