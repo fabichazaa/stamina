@@ -124,7 +124,7 @@
 					<h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Enjoy the Tango!">Buenos Aires</h5>
 					<h6 class="card-subtitle text-muted">Argentina</h6>
 					<p class="card-text">Explore the beautiful cities of Buenos Aires and enjoy the exclusive content we've got on out platform.</p>
-					<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contact">Contact</button>
+					<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contact" id="contactButton">Contact</button>
 				</div>
 				<div>
 					<button type="button" class="btn btn-danger btn-check" data-toggle="popover" title="Promotions" data-content="Consult the various options">
@@ -281,7 +281,27 @@
     		$("[data-toggle='popover']").popover();
     		$('.carousel').carousel({
     			interval: 2000
-    		})
+    		});
+
+    		$('#contact').on('show.bs.modal', function (e) {
+ 				console.log('Modal is showing');
+
+ 				$('#contactButton').removeClass('btn-outline-success');
+ 			 	$('#contactButton').addClass('btn-primary');
+ 			 	$('#contactButton').prop('disabled', true);
+
+	
+			})
+			$('#contact').on('show.bs.modal', function (e) {
+ 				console.log('Modal is shown');
+			})
+			$('#contact').on('hide.bs.modal', function (e) {
+ 				console.log('Modal is hiding');
+			})
+			$('#contact').on('hidden.bs.modal', function (e) {
+ 				console.log('Modal is  hidden');
+ 			 	$('#contactButton').prop('disabled', false);
+			})
     	});
     </script>
  
