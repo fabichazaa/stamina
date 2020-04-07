@@ -1,0 +1,40 @@
+$oceanblue: #41d1d9;
+
+@mixin margins($top, $bottom){
+	margin-top: $top;
+	margin-bottom: $bottom;
+}
+
+.jumbotron{
+	background-color: $oceanblue;
+	color: black;
+	@include margins(50px, 10px);
+}
+
+footer{
+	padding: 10px 10px 0 10px;
+	background-color: $oceanblue;
+	@include margins(10px, 0px);
+
+}
+
+/* PADDING: Top-right-bot-left */
+.card-user{
+	flex: 1 200px;
+	@include margins(10px, 0px);
+}
+
+.btn-check{
+	width: 100%;
+	border-radius: 0px;
+}
+
+.footer-adress-icon{
+	padding-right: 10px;
+}
+
+.tab-content{
+	padding-top: 10px;
+}
+
+

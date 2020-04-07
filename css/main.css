@@ -32,3 +32,6 @@ footer{
 }
 
 
+/* Browser doesn't detect .SCSS files. We need to 'npm run scss' to generate the css. 
+	SASS helps us to create variables, so we can change the hexcode in the variable
+	and it automatically changes everywhere. */
