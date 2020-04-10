@@ -25,3 +25,18 @@ footer {
 
 .tab-content {
   padding-top: 10px; }
+
+/*  [npm run scss] to compile SCSS files\
+
+	npm install --save-dev onchange rimraf
+	[npm run watch:scss] command configurated on the pckge.json, compiles *.scss files on real time when saved
+
+	npm install --save concurrently
+	[npm run start]
+	
+	npm install -g imagemin-cli --unsafe-perm-true --allow-root
+	[npm run imagemin] to compress pictures
+
+	npm install --save-dev usemin-cli cssmin uglifyjs htmlmin
+	Uglifys reduces space, dificults lecture but prevents attackers, versions files
+	*/
