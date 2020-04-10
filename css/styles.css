@@ -26,6 +26,11 @@ footer {
 .tab-content {
   padding-top: 10px; }
 
+h1 {
+  border: 15px solid #ddd; }
+  h1:hover {
+    border-color: #FFFF00; }
+
 /*  [npm run scss] to compile SCSS files\
 
 	npm install --save-dev onchange rimraf
@@ -40,5 +45,3 @@ footer {
 	npm install --save-dev usemin-cli cssmin uglifyjs htmlmin
 	Uglifys reduces space, dificults lecture but prevents attackers, versions files
 	*/
-
-/*# sourceMappingURL=styles.css.map */
