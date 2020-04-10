@@ -37,17 +37,6 @@ footer{
 	padding-top: 10px;
 }
 
-@mixin groso($width){
-	border: $width solid #ddd;
-	&:hover {
-	border-color:#FFFF00;
-	}
-}
-
-h1{
-	@include groso(15px);
-}
-
 
 /*  [npm run scss] to compile SCSS files\
 

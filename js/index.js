@@ -20,5 +20,8 @@ $(function(){
 			$('#contact').on('hidden.bs.modal', function (e) {
  				console.log('Modal is  hidden');
  			 	$('#contactButton').prop('disabled', false);
+ 			 	$('#contactButton').removeClass('btn-primary');
+ 			 	$('#contactButton').addClass('btn-outline-success');
+
 			})
     	});
